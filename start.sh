@@ -1,0 +1,1 @@
+dart pub global run objd_cli serve index.dart
