@@ -1,11 +1,12 @@
 import 'package:objd/core.dart';
+import 'room/level0.dart';
 import './main.dart';
 import './load.dart';
 
 void main(List<String> args){
 	createProject(
 		Project(
-			name:"ObjD Project",
+			name:"BackroomDP",
 			target:"../", // path for where to generate the project
             version: 18,
 			generate: CustomWidget() // The starting point of generation
@@ -30,7 +31,7 @@ class CustomWidget extends Widget {
                     child: LoadFile()
                 ),
                 files: [
-                    
+                    File("generatelevel0",child: GenerateLevel())
                 ],        
             )
         ]);

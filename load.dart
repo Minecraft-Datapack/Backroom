@@ -1,7 +1,7 @@
 import 'package:objd/core.dart';
 
 class LoadFile extends Widget {
-    LoadFile()
+    LoadFile();
 
     @override
     generate(Context context) {
